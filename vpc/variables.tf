@@ -4,6 +4,11 @@ variable "mex_cidr" {
     sensitive = false
 }
 
+variable "mex_second_cidr"{
+    description = "Second CIDR Mex"
+    type = string
+    sensitive = false
+}
 # variable "public_subnet" {
 #   description = "CIDR public subnet"
 #   type = string
